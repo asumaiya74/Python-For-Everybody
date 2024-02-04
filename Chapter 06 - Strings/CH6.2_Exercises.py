@@ -23,3 +23,11 @@ pos = fruit.find('na')
 print(pos)
 aa = fruit.find('z')
 print(aa)
+
+#Search & Replace ".replace()"
+#replaces all occurences of the search string with the replacement string 
+nstr = greet.replace('Bob', 'Jane')
+print(nstr)
+
+abc = greet.replace('o', 'x')
+print(abc)
