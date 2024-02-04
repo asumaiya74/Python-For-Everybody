@@ -31,3 +31,12 @@ print(nstr)
 
 abc = greet.replace('o', 'x')
 print(abc)
+
+#Stripping whitespace
+#.lstrip() - removes whitespace at the left 
+greeting = " Hello Bob "
+greeting.lstrip()
+#.rstrip() - removes whitespace at the right
+greeting.rstrip()
+#.strip() - removed both beginning and ending whitespace 
+greeting.strip()
