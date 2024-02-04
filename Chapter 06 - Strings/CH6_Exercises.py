@@ -19,3 +19,10 @@ while index < len(fruit):
 
 for letter in fruit:
     print(letter)
+
+#Using "in" as a logical operator 
+'n' in fruit
+'m' in fruit
+'nan' in fruit
+if 'a' in fruit:
+    print("Found it!")
